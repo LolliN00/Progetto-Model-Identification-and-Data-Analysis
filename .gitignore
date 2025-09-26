@@ -1,0 +1,70 @@
+# MATLAB specific files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB figures and data
+*.fig
+*.mat
+*.slxc
+
+# Temporary files
+*.tmp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows system files
+desktop.ini
+
+# Project specific
+# Keep the main data file but ignore backups
+*-backup.csv
+*_backup.*
+
+# MATLAB Project files (keep main structure but ignore cache)
+resources/project/.*/
+resources/project/*.xml
+!resources/project/Project.xml
+
+# Output directories
+output/
+figures/
+plots/
+
+# Logs
+*.log
+*.diary
+
+# Compiled MEX files
+*.mex*
+
+# Code generation
+codegen/
+slprj/
+
+# Simulink specific
+*.slx.autosave
+*.slxc
+
+# Documentation build
+html/
+latex/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtual environments (if any)
+venv/
+env/
+.env
